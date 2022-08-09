@@ -25,7 +25,8 @@ export async function searchMovies(payload) {
     // })
     const res = await axios.post('/.netlify/functions/movie', {
       ...payload,
-      page: 1
+      page: 1,
+      withCredentials: true
     })
     // `Search`는 검색된 영화 정보입니다.
     // `totalResults`는 검색 가능한 영화의 총 개수입니다.
@@ -52,7 +53,8 @@ export async function searchMovies(payload) {
       if (page > (payload.number / 10)) break
       const res = await axios.post('/.netlify/functions/movie', {
         ...payload,
-        page
+        page,
+        withCredentials: true
       })
       const { Search } = res.data
       movies.update($movies => _unionBy($movies, Search, 'imdbID'))
@@ -70,7 +72,7 @@ export async function searchMovieWithId(id) {
   //   id
   // })
   const res = await axios.post('/.netlify/functions/movie', {
-    id
+    id, withCredentials: true
   })
   theMovie.set(res.data)
   loading.set(false)
