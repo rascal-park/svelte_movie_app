@@ -4,7 +4,7 @@ Svelte.js와 OMDb API를 사용하는 영화 검색 애플리케이션입니다.
 인프런 Svelte.js SPA 영화 검색 프로젝트를 참고하여 만든 어플리케이션입니다.
 
 
-[DEMO]추가 예정(https://competent-cori-258206.netlify.app/)
+[DEMO](https://superb-pudding-11240c.netlify.app/)
 
 ### Goals
 
