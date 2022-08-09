@@ -1,13 +1,11 @@
 <footer>
   <div>
-    <a href="https://github.com/HeropCode/Svelte-Movie-app">
-      GitHub Repo.
-    </a>
+      Learning Club
   </div>
   <div>
     <a href="https://devinn.dev/challengers/">
       @{new Date().getFullYear()}
-      HEROPY
+      jhPark
     </a>
   </div>
 </footer>
