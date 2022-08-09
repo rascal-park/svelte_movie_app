@@ -5,7 +5,7 @@
     </a>
   </div>
   <div>
-    <a href="https://heropy.blog/2019/09/29/svelte/">
+    <a href="https://devinn.dev/challengers/">
       @{new Date().getFullYear()}
       HEROPY
     </a>
