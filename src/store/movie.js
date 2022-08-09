@@ -78,7 +78,7 @@ export async function searchMovieWithId(id) {
 
 function _fetchMovie(payload) {
   const { title, type, year, page, id } = payload
-  const OMDB_API_KEY = '7035c60c'
+  const OMDB_API_KEY = '3cdee8f4'
 
   const url = id
     ? `https://www.omdbapi.com/?apikey=${OMDB_API_KEY}&i=${id}&plot=full`
