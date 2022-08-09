@@ -6,7 +6,7 @@
 
   export let params = {}
 
-  searchMovieWithId(params.id)
+  searchMovieWithId('tt3896198')
 
   function requestDifferentSizeImage(url, size = 700) {
     const src = url.replace('SX300', `SX${size}`)
